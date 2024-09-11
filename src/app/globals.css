@@ -34,11 +34,11 @@ body {
 }
 
 .default-line-color {
-  background: theme("colors.system.purple50");
+  background: #fde047;
 }
 
 .change-line-color {
-  background: theme("colors.system.green60");
+  background: red;
 }
 
 @keyframes pulse {
