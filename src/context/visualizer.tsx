@@ -115,7 +115,7 @@ export const SortingAlgorithmProvider = ({
       arrayLines[lineIndex].style.height = `${newHight}px`;
     };
 
-    const inverseSpeed = (1 / animationSpeed) * 200;
+    const inverseSpeed = (1 / animationSpeed) * 600;
     const arrayLines = document.getElementsByClassName(
       "array-line"
     ) as HTMLCollectionOf<HTMLElement>;
