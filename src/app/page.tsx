@@ -118,7 +118,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative h-[calc(100vh-66px)] w-full">
-            <div className="absolute bottom-[32px] mb-8 md:mb-0 w-full mx-auto left-0 right-0 flex justify-center items-end">
+            <div className="absolute  bottom-[0px] md:bottom-[32px] mb-14 md:mb-0 w-full mx-auto left-0 right-0 flex justify-center items-end">
               {arrayToSort.map((value, index) => (
                 <div
                   className="array-line relative w-1 mx-0.5 shadow-lg opacity-70 rounded-lg default-line-color"
